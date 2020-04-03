@@ -16,6 +16,7 @@ public class BussinessException extends Exception implements CommonError{
         super();
         this.commonError=commonError;
         this.commonError.setErrMsg(errMsg);
+        ////////
     }
 
     @Override
