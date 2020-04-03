@@ -1,0 +1,422 @@
+html {
+    cursor: url('https://files-cdn.cnblogs.com/files/yanggb/mouse-plane.gif'), auto
+}
+
+body {
+    background: #f0eef5
+}
+
+#home {
+    background-image: url('https://files.cnblogs.com/files/yanggb/flower-opacity-30-lit.gif');
+    overflow: hidden
+}
+
+#blogTitle {
+    width: 100%;
+    height: 350px;
+    background: 0
+}
+
+#blogTitle:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 350px;
+    background-image: url('https://files.cnblogs.com/files/yanggb/title-bg.gif');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    opacity: .8
+}
+
+#blogTitle:after {
+    content: '';
+    position: absolute;
+    top: 150px;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(270deg, #0184b2, #d49ba3, #d5d58b, #91b0df, #f0eef5);
+    background: -webkit-linear-gradient(270deg, #0184b2, #d49ba3, #d5d58b, #91b0df, #f0eef5);
+    background: -o-linear-gradient(270deg, #0184b2, #d49ba3, #d5d58b, #91b0df, #f0eef5);
+    background: -moz-linear-gradient(270deg, #0184b2, #d49ba3, #d5d58b, #91b0df, #f0eef5);
+    z-index: -1;
+    display: none
+}
+
+#blogTitle h1 {
+    position: absolute;
+    top: 188px;
+    left: 0;
+    width: 320px
+}
+
+#blogTitle h1 a:before {
+    content: '';
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: -10px;
+    left: 38px;
+    background-image: url('https://files.cnblogs.com/files/yanggb/hi-dog-lit.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .9
+}
+
+#blogTitle h1 a, #navList a:link {
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #fbccd0), color-stop(0.15, #f3eca4), color-stop(0.3, #a1c0fe), color-stop(0.45, #9cd2a5), color-stop(0.6, #fbccd0), color-stop(0.75, #f3eca4), color-stop(0.9, #a1c0fe), color-stop(1, #9cd2a5));
+    color: transparent;
+    color: #fff \9;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -ms-background-clip: text
+}
+
+#navList a:link {
+    text-shadow: none
+}
+
+#navList a:hover {
+    color: #0184b2 !important;
+    color: #0184b2 \9 !important
+}
+
+#blogTitle h2 {
+    position: absolute;
+    top: 260px;
+    left: 70px;
+    width: 500px;
+    height: 30px;
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #fbccd0), color-stop(0.15, #f3eca4), color-stop(0.3, #a1c0fe), color-stop(0.45, #9cd2a5), color-stop(0.6, #fbccd0), color-stop(0.75, #f3eca4), color-stop(0.9, #a1c0fe), color-stop(1, #9cd2a5));
+    color: transparent;
+    color: #fff \9;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -ms-background-clip: text
+}
+
+#navigator {
+    background-color: transparent;
+    position: absolute;
+    top: 291px;
+    left: 0;
+    width: 100%;
+    border: 0;
+    background-image: url('https://files.cnblogs.com/files/yanggb/navigator-bg3.gif');
+    background-repeat: repeat-x;
+    background-size: 1280px 60px
+}
+
+#navList a:hover {
+    color: #000;
+    text-shadow: none;
+    font-weight: bold
+}
+
+#navigator:before {
+    content: '';
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top: -135px;
+    left: 147px;
+    background-image: url('https://files.cnblogs.com/files/yanggb/rainbow-cat-lit.gif');
+    background-repeat: no-repeat;
+    background-size: 150px 100px;
+    opacity: .7;
+    transform: rotate(18deg)
+}
+
+#navigator:after {
+    content: '';
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: -258px;
+    right: 7%;
+    background-image: url('https://files.cnblogs.com/files/yanggb/sun-lit.gif');
+    background-repeat: no-repeat;
+    background-size: 120px 120px;
+    z-index: 998;
+    opacity: .8
+}
+
+#main {
+    width: 1200px;
+    margin: 2px auto 0
+}
+
+#mainContent {
+    width: 100%;
+    position: relative
+}
+
+#mainContent:before {
+    display: none;
+    content: '';
+    width: 180%;
+    height: 101%;
+    position: absolute;
+    top: 0;
+    left: -40%;
+    opacity: .15;
+    z-index: -555;
+    background-image: url('https://blog-static.cnblogs.com/files/yanggb/main-content-bg-lit.gif');
+    background-size: 100% 100%
+}
+
+#topics, #blog-comments-placeholder, #comment_form_container {
+    border: 0;
+    border-radius: 15px;
+    background-color: transparent
+}
+
+#blog-comments-placeholder {
+    border-top: 2px dashed #ccc;
+    border-radius: 0
+}
+
+#topics .postTitle a {
+    color: #b58989
+}
+
+.day:hover .postSeparator {
+    border-top: 1px dashed #ddd
+}
+
+#homepage_top_pager {
+    display: none
+}
+
+.entrylist h1 {
+    font-size: 20px;
+    color: #fff;
+    display: none
+}
+
+.entrylistItemPostDesc a {
+    float: none
+}
+
+.catListTitle {
+    background-color: #363636;
+    border: 0
+}
+
+.sidebar-block h3 {
+    background-color: #0e5d86;
+    border: 0
+}
+
+.day {
+    border: 2px dashed #f6f0f0;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    background-color: #f6f0f0
+}
+
+.day:hover {
+    border: 2px dashed #ddd;
+    background-image: url('https://files.cnblogs.com/files/yanggb/flower-opacity-30-lit.gif')
+}
+
+.dayTitle {
+    background-color: #b58989;
+    cursor: pointer;
+    border-radius: 7px
+}
+
+.dayTitle a {
+    text-decoration: none
+}
+
+.day .postTitle2 {
+    color: #b58989
+}
+
+.postTitle a:hover {
+    color: #fe5d5d
+}
+
+#comment_nav {
+    display: none
+}
+
+#tbCommentBody {
+    background-color: transparent;
+    outline-color: #363636
+}
+
+#ad_t2, #under_post_news, #under_post_kb, .c_ad_block {
+    display: none
+}
+
+.newsItem {
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    width: 200px;
+    cursor: pointer;
+    z-index: 9999
+}
+
+.catListTitle {
+    border-radius: 20px 20px 0 0
+}
+
+#sidebar_search {
+    position: fixed;
+    bottom: 20px;
+    right: 222px;
+    width: 292px;
+    z-index: 9999;
+    display: none
+}
+
+.mySearch {
+    border-radius: 20px 20px 0 0
+}
+
+#sidebar_shortcut, #sidebar_categories,#sidebar_news, #sidebar_recentcomments, #sidebar_topviewedposts, #sidebar_topcommentedposts, #sidebar_topdiggedposts {
+    display: none
+}
+#blog-calendar{
+
+}
+
+.topicListFooter {
+    text-align: left;
+    margin-left: 20px
+}
+
+#nav_next_page a {
+    background-color: #fe5d5d
+}
+
+#comment_nav {
+    text-align: left
+}
+
+.commentbox_title_right {
+    float: left
+}
+
+#green_channel {
+    border: #e6e1e1 1px solid
+}
+
+.topicListFooter {
+    height: auto
+}
+
+#profile_block:hover {
+    border: 1px solid #dedede
+}
+
+.author_avatar {
+    border-radius: 12px;
+    padding-top: 3px;
+    margin-right: 10px
+}
+
+#homepage_bottom_pager {
+    height: auto
+}
+
+#poweredby {
+    display: none
+}
+
+.comment_textarea {
+    background-color: transparent
+}
+
+@media screen and (min-width: 1920px) {
+    #main {
+        width: 1600px
+    }
+
+    #navList {
+        width: 1600px
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    #main {
+        width: 98%
+    }
+
+    #navList {
+        width: 700px
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #blogTitle {
+        background-position: 0 0 !important
+    }
+
+    #blogTitle:before {
+        background-size: auto 100%;
+        background-position: center
+    }
+
+    #blogTitle h1 {
+        position: absolute !important;
+        padding-top: 0 !important;
+        left: 77px !important
+    }
+
+    #blogTitle h1 a:before {
+        top: -10px;
+        left: -75px
+    }
+
+    #blogTitle h2 {
+        position: absolute !important;
+        padding: 0 !important;
+        left: 12px !important
+    }
+
+    #navigator:before {
+        display: none
+    }
+
+    #navigator:after {
+        top: -260px;
+        right: 5%;
+        width: 80px;
+        height: 80px;
+        background-size: 80px 80px
+    }
+
+    .day, #topics, #blog-comments-placeholder {
+        margin: 10px;
+        padding: 10px;
+        margin-top: 0
+    }
+
+    #navList {
+        width: 100%
+    }
+
+    #sideBar {
+        display: none
+    }
+
+    #green_channel {
+        width: 100%
+    }
+
+    #tbCommentBody {
+        width: 100%
+    }
+}
+
+@media screen and (max-width: 380px) {
+    #tbCommentAuthor {
+        width: 168px
+    }
+}
